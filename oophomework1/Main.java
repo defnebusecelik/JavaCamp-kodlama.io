@@ -8,15 +8,15 @@ public class Main {
 		CustomerManager.GiveCredit();
 		
 		Company company = new Company();
-		   company.setTaxNumber("1000");
-	    company.setAd("Arçelik");
-	    company.setId(2);
+			company.setTaxNumber("1000");
+	    		company.setAd("Arçelik");
+	    		company.setId(2);
 	    
-	  customerManager cm2 = new customerManager(new Person(),new TeacherCreditManager());
+	 	customerManager cm2 = new customerManager(new Person(),new TeacherCreditManager());
 		
 		CreditManager creditManager = new CreditManager();
-        creditManager.Hesapla();
-        creditManager.Save();
+        		creditManager.Hesapla();
+        		creditManager.Save();
 	}
 
 }
